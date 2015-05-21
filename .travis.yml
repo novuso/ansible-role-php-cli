@@ -7,8 +7,8 @@ before_install:
 
 install:
   - pip install ansible
-  - sudo ansible-galaxy install novuso.php-ext
   - cd tests
+  - ansible-galaxy install novuso.php-ext
 
 script:
   - "ansible-playbook playbook.yml --syntax-check"
