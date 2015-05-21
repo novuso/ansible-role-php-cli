@@ -1,0 +1,37 @@
+---
+# php_cli_packages
+# - name: "php5-cli"                             #required
+#   state: present                               #default
+php_cli_packages:
+- name: "php5-cli"
+php_cli_short_open_tag: "Off"
+php_cli_expose_php: "Off"
+php_cli_max_execution_time: "0"
+php_cli_max_input_time: "60"
+php_cli_memory_limit: "512M"
+php_cli_error_reporting: "E_ALL & ~E_DEPRECATED & ~E_STRICT"
+php_cli_display_errors: "Off"
+php_cli_display_startup_errors: "Off"
+php_cli_track_errors: "Off"
+php_cli_html_errors: "Off"
+php_cli_variables_order: "GPCS"
+php_cli_request_order: "GP"
+php_cli_post_max_size: "8M"
+php_cli_default_mimetype: "text/html"
+php_cli_default_charset: "UTF-8"
+php_cli_upload_max_filesize: "10M"
+php_cli_max_file_uploads: "3"
+php_cli_date_timezone: "UTC"
+php_cli_include_path: ".:/usr/share/php"
+php_cli_enable_includes: true
+php_cli_opcache_enable: "0"
+php_cli_opcache_memory_consumption: "64"
+php_cli_opcache_interned_strings_buffer: "16"
+php_cli_opcache_max_accelerated_files: "4000"
+php_cli_opcache_validate_timestamps: "1"
+php_cli_opcache_revalidate_freq: "0"
+php_cli_opcache_fast_shutdown: "1"
+# php_cli_extra_settings
+# - setting: "xdebug.max_nesting_level=250"      #required
+#   state: present                               #default
+php_cli_extra_settings: []
