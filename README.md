@@ -1,6 +1,8 @@
 # Ansible Role: PHP CLI
 
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-novuso.php--cli-000000.svg)](https://galaxy.ansible.com/list#/roles/3861)
 [![MIT License](http://img.shields.io/badge/license-MIT-003399.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/novuso/ansible-role-php-cli.svg)](https://travis-ci.org/novuso/ansible-role-php-cli)
 
 An Ansible role that manages PHP CLI on Ubuntu 14.04
 
